@@ -1,0 +1,222 @@
+@media screen,print {
+/* layout */
+body {
+ width:99%;
+ font-family: "Georgia", serif;
+}
+
+iframe {
+   border:0; 
+}
+
+img {
+border:0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+a {
+ font-weight:bold;
+}
+
+a:hover {
+  color:#FF9900;
+  cursor:pointer;
+}
+
+a:visited{
+  color:#000000;
+}
+table
+{
+    border-collapse: collapse; 
+		background-color:#FFFFCC;
+		width:795px;
+		border: 1px solid #FFCC99; 
+}
+
+table td, table th
+{
+    padding: 5px; 
+}
+
+
+
+
+.group {
+  padding:0.5em;
+  display: table;
+  width: 97%; 
+  table-layout: fixed;
+}
+
+.group2 {
+  padding:0.5em;
+  display: table;
+  width: 80%; 
+  table-layout: fixed;
+}
+
+.group2  > div {
+  display: table-cell;
+  width: auto; 
+  vertical-align:top;
+}
+
+.group  > div {
+  display: table-cell;
+  width: auto; 
+}
+
+.group  > section {
+  display: table-row;
+  height: 12em; 
+}
+
+.sponsortype {
+ color:#C0C0C0;
+}
+
+.awards {
+ color: #000066;
+ font-size: 1.1em;
+}
+
+#twitt {
+ width:25%
+}
+
+#rightSidebar{
+  margin-top:1em;
+  margin-left: 1em;
+  border: 2px dashed #FF9900;
+  width:150px;
+  text-align: center;
+}
+
+
+#container article {
+   margin-top:0.5em;
+}
+
+
+#footer {
+  padding:0.05em;
+}
+
+/* content */
+
+#logo {
+    background: url("http://ruleml.org/images/RuleMLlogo2005.jpg") no-repeat scroll right center white;
+    color: #000066;
+    font: bold 3.6em/60px Verdana, Geneva,Helvetica,Arial,sans-serif;
+    height: 85px;
+    letter-spacing: -3px;
+    padding-left: 0;
+    margin:10px 0px 5px 0px;
+}
+
+#slogan, h1 {
+    color: #606060;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    margin: 0 0 6px;
+    /* font-family: 'Droid Serif', serif;*/
+    font-family: Geneva, "MS Sans Serif", sans-serif 
+}
+
+#subslogan {
+    color: #000066;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+
+.intro {
+ line-height:150%;
+}
+
+.footnote {
+   padding:0.5em;
+   border-top: 1px solid #000000;
+   margin-right:0.5em;
+   font-size:80%;
+}
+
+#twitterButton {
+  float:right;
+}
+
+#pastevents{
+  font-size:80%;
+}
+
+#topics {
+  margin-right: 5em;
+}
+
+#topics li{
+  list-style: none;
+  margin: 0;
+  padding: 0.25em;
+  border-bottom: 1px solid gray;
+}
+
+#pc > p {
+ margin-left:1em;
+}
+}
+@media screen {
+#menu {
+  padding-top:0.5em;
+  display:block;
+}
+
+.menuItem {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    background: none repeat scroll 0 0 #FF9900;
+    color: #FFFFFF;
+    font-family: Geneva, Helvetica,Sans-serif;
+    font-weight: bold;
+    font-size:14px;
+    margin: 10px 0 0;
+    padding: 5px;
+    text-shadow: 0 1px 0 #FF6600;
+		text-decoration:none;
+    
+}
+
+#menu a:hover, #program p a:hover {
+  color:#000066;
+}
+
+
+#partners {
+ border: 1px solid #FFFFFF;
+ display:block;
+}
+
+#partners h1 {
+     color: #FF9900;
+     background: none repeat scroll 0 0 #000000;
+     margin:0.15em;
+}
+#partners section p a img {
+  padding-bottom:6px;
+}
+}
+@media print {
+#menu, #twitt {
+ display:none;
+}
+
+}
